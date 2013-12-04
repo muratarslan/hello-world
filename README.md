@@ -1,4 +1,4 @@
-(defmacro forever [& body] 
-  `(while true ~@body))
+(defmacro foreva [& bud] 
+  `(while true ~@bud))
   
-  (forever (print "hi "))
+  (foreva (println "hi!"))
